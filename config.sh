@@ -42,7 +42,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "        Magisk 模块示例        "
+  ui_print "       联盟少侠                 "
   ui_print "*******************************"
 }
 
@@ -86,6 +86,7 @@ set_permissions() {
 
   # 以下是默认权限，请勿删除
   set_perm_recursive  $MODPATH  0  0  0755  0644
+  set_perm_recursive  $MODPATH/system/etc/security/cacerts  0  0  0755  0644
 }
 
 ##########################################################################################
