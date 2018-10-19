@@ -3,5 +3,5 @@ name=KoolProxy的HTTPS证书
 version=v1.0.0
 versionCode=1
 author=联盟少侠
-description=简单快捷的使用https过滤，请将压缩包内的koolproxyCA.tar.gz在KoolProxy中恢复
+description=简单快捷的使用https过滤，请将压缩包内的koolproxyCA.tar.gz在路由器KoolProxy中恢复
 minMagisk=17000
